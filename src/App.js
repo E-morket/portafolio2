@@ -9,15 +9,14 @@ import { Link } from "react-router-dom";
 
 
 function App() {
+
   return (
         <BrowserRouter>
           <AppBar position="static" style={{ background: '#24292f' }}>
             <Toolbar>
-              <Link to='/home'>
-                <Button color="inherit">Acerca de </Button>
+              <Link to='/home'><Button color="inherit">Acerca de </Button>
               </Link>
-              <Link to='/contact'>
-                <Button color="inherit">Contacto</Button>
+              <Link to='/contact'><Button color="inherit">Contacto</Button>
               </Link>
               {/* <Button color="inherit">Mis habilidades </Button>
               <Button color="inherit">Trabajar</Button>
@@ -27,7 +26,7 @@ function App() {
           </AppBar>
 
           <Routes>
-            <Route path="/home"   element={<Home />}> </Route> 
+            <Route path="/home"  element={<Home />}> </Route> 
             <Route path="/contact"  element={<Contact />}></Route> 
           </Routes>
         </BrowserRouter>

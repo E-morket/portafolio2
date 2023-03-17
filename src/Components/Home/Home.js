@@ -10,7 +10,7 @@ import imgFarma from './assets/farma.png'
 import imgVtex from './assets/vtex.png'
 import imgBancoppe from './assets/bancoppel.png'
 
-// import MenuIcon from '@mui/icons-material/Menu';
+
 
 const Home = () => {
 

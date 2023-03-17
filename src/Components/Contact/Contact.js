@@ -1,4 +1,4 @@
-import './Contact.css'
+//import './Contact.css'
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import TextareaAutosize from '@mui/base/TextareaAutosize';
